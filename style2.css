@@ -1,0 +1,52 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Code Pro', monospace;
+	}
+.wrapper{
+		min-height: 200vh;
+		width: 100%;
+		background-color: #2A354A;
+		background-position: center;
+		background-size: cover;
+		position: relative;
+		}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	}
+.input-Box{
+	color: #ffffff;
+	text-align: center;
+	justify-content: space-between;
+	}
+.remember-Forgot{
+	color: #ffffff;
+	text-align: center;
+	justify-content: space-between;
+	}
+.register-Link{
+	color: #ffffff;
+	text-align: center;
+	justify-content: space-between;
+	}
+.box{
+	position: absolute;
+	top: 20%;
+	left: 36%;
+	transform: translate(-20%, -20%);
+	width: 50%;
+	height: 275px;
+	float: initial;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #A50000;
+}
+
+
+
+
