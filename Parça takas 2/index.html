@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shreezer.com</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" id="FormElement">
+            <h1>Login</h1>
+            <div class="input-Box" >
+                <input type="text" id="Ur" 
+                    name="username"
+                            placeholder="Username" 
+                required>
+                <!--i class='bx bx-user' ></i-->
+            </div>
+            <div class="input-Box">
+                <input type="password" id="Pr"
+                    name="pasword"    
+                        placeholder="Password"
+                required>
+                <!--i class='bx bx-lock-alt' ></i-->
+            </div>
+            <div class="remember-Forgot">
+                <label><input type="checkbox">Remember me
+                </label>
+                <a href="forgotPassword.html">Forgot Password?</a>
+            </div>
+                <center><button type="submit" class="btn" 
+                    id="loginButton">Login</button></center>
+            <div class="register-Link">
+                <p>Don't have an account?
+                    <a href="signUpPage.html">Register</a></p>
+            </div>
+        </form>
+    </div>
+    
+<script type="application/json" id="jsonData">
+    {
+    "data": [
+          {
+            "id": "user1",
+            "password": "pass123"
+          },
+          {
+            "id": "user2",
+            "password": "qwerty"
+          },
+          {
+            "id": "user3",
+            "password": "secret"
+          }
+        ]
+      }
+</script>
+
+</body>
+<script src="app.js"></script>
+
+</html>
