@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.wrapper{
+    align-items: center;
+    width: 420px;
+    height: 420px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-self: center;
+    position: absolute;
+    top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-Box{
+    width: 94.5%;
+    height: 50px;
+    background-color: white;
+    margin: 30px 0;
+}
+
+.input-Box input{
+    position:relative;
+    left: 5%;
+    
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+    
+}
+
+.input-Box input::placeholder{
+    color: gray;
+}
+
+/** .input-Box  i  {
+    position: absolute;
+    right: 30px;    
+    transform: translateY(-50%);
+    font-size: 23px;
+} **/
+
+
+
+.wrapper .remember-Forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    color: black;
+}
+
+.remember-Forgot label{
+    position: relative;
+    left: 17px;
+}
+
+.remember-Forgot label input{
+    accent-color: black ;
+}
+
+.remember-Forgot a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    right: 25px;
+
+}
+
+.remember-Forgot a:hover{  /*Üstüne gelince altı çizilio*/
+    text-decoration: underline;
+}
+
+.wrapper .register-Link{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.wrapper .btn{
+    width: 80%;
+    height: 45px;
+    background: #fff;
+    border:  1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
